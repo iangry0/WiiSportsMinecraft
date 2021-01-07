@@ -16,7 +16,6 @@ Contributions are welcome but I don't know who would want to read and work on th
 
 
 Demo video of the plugin using wuhu island map
-Wuhu island map at Wii Sports Resort Island - Wuhu and Wedge Islands [1.15.2 Download] Minecraft Map (planetminecraft.com)
-all credit to Tizona for making wuhu island map on minecraft
+Wuhu island map, all credit to Tizona for making wuhu island map on minecraft https://www.planetminecraft.com/project/wuhu-island---wii-sport-resort-island/
 
 https://www.youtube.com/watch?v=ME7LCfQw_DQ
