@@ -1,0 +1,10 @@
+main: i.lovematt.wiisports.Core
+name: WiiSports
+version: 1.0.1
+description: A Wii Sports Swordplay WIP Plugin
+author: iAngry
+depend: [NoteBlockAPI]
+commands:
+  wiisports:
+    description: Play
+    aliases: [wii, swordplay, wiisportsswordplay, wiisportsresort, wiisportsresortswordplay]
