@@ -1,6 +1,6 @@
 main: i.lovematt.wiisports.Core
 name: WiiSports
-version: 1.0.1
+version: 0.0.2
 description: A Wii Sports Swordplay WIP Plugin
 author: iAngry
 depend: [NoteBlockAPI]
