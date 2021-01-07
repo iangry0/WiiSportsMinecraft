@@ -1,4 +1,4 @@
-# WiiSportsMinecraft
+# Wii Sports Resorts Swordplay in Minecraft
 Wii Sports Plugin for Minecraft Spigot
 
 Currently only includes the Wii Sports Swordplay Mini Game
