@@ -17,5 +17,8 @@ Contributions are welcome but I don't know who would want to read and work on th
 
 Demo video of the plugin using wuhu island map
 Wuhu island map, all credit to Tizona for making wuhu island map on minecraft https://www.planetminecraft.com/project/wuhu-island---wii-sport-resort-island/
-
+Demo video:
 https://www.youtube.com/watch?v=ME7LCfQw_DQ
+
+SpigotMC page:
+https://www.spigotmc.org/resources/wii-sports-resort-swordplay.87556/
