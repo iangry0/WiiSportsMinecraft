@@ -1,0 +1,20 @@
+# For Items: MATERIAL:AMOUNT:ITEM BYTES/DATA:ITEMS NAME:ENCHANEMENT-LVL (Enchanements is unlimited)
+# For Armor: MATERIAL:NAME:ENCHANTMENT-LVL (Enchantments are unlimited)
+default-kit: "swordplay"
+kits:
+  swordplay:
+    display: "WOOD_SWORD:1:0:&cWii Sports Resort Swordplay:&cSwordplay Duel!"
+    armor:
+      - "LEATHER_HELMET:&cHelmet:PROTECTION_ENVIRONMENTAL-4"
+      - "LEATHER_CHESTPLATE:&cChestplate:PROTECTION_ENVIRONMENTAL-4"
+      - "LEATHER_LEGGINGS:&c&lLeggings:PROTECTION_ENVIRONMENTAL-4"
+      - "LEATHER_BOOTS:&cNike:PROTECTION_ENVIRONMENTAL-4"
+    items:
+      - "WOOD_SWORD:1:0:&fSword:DAMAGE_ALL-1:DURABILITY-2"
+  boxing:
+    display: "LEATHER_LEGGINGS:1:0:&cWii Sports Boxing:&cNo weapons, fist fight"
+    armor:
+      - "LEATHER_LEGGINGS:&c&lLeggings:PROTECTION_ENVIRONMENTAL-4"
+      - "LEATHER_BOOTS:&cNike:PROTECTION_ENVIRONMENTAL-4"
+    items:
+      - "AIR"

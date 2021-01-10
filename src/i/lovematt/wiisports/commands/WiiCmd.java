@@ -1,5 +1,6 @@
 package i.lovematt.wiisports.commands;
 
+import org.bukkit.GameMode;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -11,6 +12,7 @@ import i.lovematt.wiisports.file.KitFile;
 import i.lovematt.wiisports.file.MsgFile;
 import i.lovematt.wiisports.file.StorageFile;
 import i.lovematt.wiisports.utils.CustomInventory;
+import org.bukkit.potion.PotionEffectType;
 
 import java.util.List;
 
@@ -33,8 +35,12 @@ public class WiiCmd implements CommandExecutor {
             if (args.length == 0) {
                 if (p.hasPermission("wiisports.players")) {
                     CustomInventory.getArenaListGUI(p);
+                } else if (!p.hasPermission("wiisports.players")) {
+                    p.sendMessage(" ");
+                    p.sendMessage("§7§lWii §b§lSports §fSwordplay");
+                    p.sendMessage("§aYou do not have permission to use this");
+                    p.sendMessage("");
                 }
-                return false;
             }
 
             // EG: /wiisports test
@@ -47,6 +53,9 @@ public class WiiCmd implements CommandExecutor {
                         if (arena != null) {
                             if (arena.getPlayers().contains(p.getUniqueId())) {
                                 arena.userLeave(p);
+                                //turn shit off
+                                p.setGameMode(GameMode.SURVIVAL);
+                                p.removePotionEffect((PotionEffectType.BLINDNESS));
                             } else {
                                 p.sendMessage(Core.getInstance().msgFile.getYouareNotIngameMsg());
                             }

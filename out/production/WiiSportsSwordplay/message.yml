@@ -1,0 +1,46 @@
+# You can use & for color codes.
+
+# %player$ | %kit% | %killer% | %top1/2/3%
+reward-commands:
+  - "none"
+player:
+  join: "&7&lWii &b&lSports &f&l| &a%player% &fjoined the game."
+  left: "&7&lWii &b&lSports &f&l| &a%player% &fleft the game."
+  already-ingame: "&7&lWii &b&lSports &f&l| &cYou are already in a game."
+  not-ingame: "&7&lWii &b&lSports &f&l| &cYou are not ingame"
+  death-msg: "&7&lWii &b&lSports &f&l| &a&l%player% was knocked out by %killer%"
+  kit-select: "&7&lWii &b&lSports &f&l| &aYou select %kit% as your kit."
+  no-permissions: "&7&lWii &b&lSports &f&l| &cYou have no permissions to execute this commands."
+  top-3:
+    - " "
+    - "&7&lWii &b&lSports &f&lSwordplay Leaderboard"
+    - "&a1. %top1%"
+    - "&a2. %top2%"
+    - "&a3. %top3%"
+    - " "
+
+arena:
+  full: "&7&lWii &b&lSports &f&l| &cThe arena is full!"
+  not-setup: "&7&lWii &b&lSports &f&l| &cArena has not been set up properly."
+
+# %winner% | %time%
+game:
+  starting-delay: "&7&lWii &b&lSports &f&l| &cStarting in 30 seconds"
+  starting: "&7&lWii &b&lSports &f&l| &aGame is starting..."
+  start-countdown: "&7&lWii &b&lSports &f&l| &cGame is starting in &a%time%&cs"
+  ending: "&7&lWii &b&lSports &f&l| &cGame will end in &c%time%&a"
+  ending-no-winner: "&7&lWii &b&lSports &f&l| &c&c&lTied! No on wins."
+  win:
+    - ""
+    - "&aWinner: &c&l%winner%"
+    - ""
+
+# %arenaname% | %spawn%
+admin:
+  reloaded: "&cAll .yml has been reloaded! If you made changes on the arena, please reload/restart the server."
+  arena-created: "&a%arenaname% has been made! Make sure to set them up /WiiSports settings %arenaname%"
+  arena-removed: "&c&l%arenaname% has been removed!"
+  arena-already-exists: "&c%arenaname% already exists!"
+  set-spawn: "&aSpawn for %spawn% has been set."
+  arena-not-exists: "&cArena with the name %arenaname% does not exists!"
+  location-not-set: "&cYou have not set the locations yet!"
